@@ -1,0 +1,230 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background:url("../Imagens/IMG_background.jpg");
+	
+	/*background: -webkit-gradient(radial,20% 20%,30,20% 50%,400, from(green), to(black)) repeat-x;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#corpo
+{
+	background: url("../Imagens/IMG_background.jpg") black center;
+	width: 78%;
+	height: 100%;
+	border: 3px solid #121212;
+	margin: 0 auto;
+}
+
+#menu ul figure img
+{
+	float:right;
+	padding:0 0 0 0 ;
+	margin:-2.5% 10.5% 0 0;
+	width:7%;
+	position:relative;
+}
+
+#menu ul
+{
+	list-style:none;
+	margin:0;
+	padding:1% 0 1% 0;
+	width:100%;
+	background: -webkit-linear-gradient(left,black,#003300,black);
+}
+
+#menu ul li
+{
+	display: inline-block;
+	position: relative;
+	margin: 0 20px;
+}
+
+#menu ul li ul
+{
+	position: absolute;
+	top:20px;
+	left:0;
+	background-color: #000;
+	display:none;
+	width: 200px;
+	z-index: 1;
+}
+
+#menu ul li:hover ul
+{
+	display:block;
+}
+
+#menu ul li a{
+	color:#00B22D;
+	font-weight: bold;
+	font-family: "A GALEGA","Arial","sans-serif";
+	text-decoration: none;
+}
+
+#menu ul li a:hover
+{
+	color: #33ff00;
+}
+
+.linha2
+{
+	border-bottom: 4px solid #00B22d;
+	width: 93%;
+	padding:0;
+	margin: 2% 0 0 3%;
+}
+
+footer
+{
+	background:#121212;
+	width: 100%;
+	position: absolute;
+	left:0;
+	padding:0;
+	margin:0;
+}
+
+.logorp
+{
+	float:right;
+	margin:2% 45% 0 0%;
+	width: 12%;
+	
+	padding:0;
+}
+
+.social img
+{
+	
+	width: 100%;
+	height: 100%;
+	max-width:25px;
+	max-height:25px;
+	margin:0;
+	padding:0; 
+}
+
+
+footer ul li
+{
+	display: inline;
+}
+
+.social
+{
+	float:left;
+	padding:10% 0 0 0;
+	margin:0 0 1% 15%;
+}
+
+.social p
+{
+	font-family:"Arial";
+	color: #9a9a9a;
+}
+
+.social a:hover
+{
+	background-color:#339933;
+	border-top:13px solid #339933;
+}
+
+.mail
+{
+	float:right;
+	padding:10% 0 0 0;
+	margin:0 -40% 1% 0%;
+}
+
+.mail button 
+{
+	border-radius: 4.5px;
+	font-weight: bold;	
+}
+
+.mail input
+{
+	border: 2px solid #999999;
+	border-radius:5px;
+}
+
+.mail p
+{
+	font-family:"Arial";
+	color:#9a9a9a;
+}
+
+.mail #q
+{
+	color:#666666;
+	font-weight:bold;
+}
+
+.marca p
+{
+	float:left;
+	font-size:12px;
+	font-family:"Arial";
+	color:#9a9a9a;
+	margin:0% 15% 0% 15%;
+	padding:0;
+}
+
+#corpocont
+{
+	margin: 0 0 15% 0;
+}
+
+#conteudo
+{
+	padding: 10%;
+	color:#cccccc;
+}
+
+#conteudo p
+{
+	text-align:justify;
+	margin:1% 40% 0 0;
+	font-size:18px;
+	font-family:"Arial";
+}
+
+#tit
+{
+	font-weight:bold;
+	margin:0 0 5% 30%;
+	font-size:35px;
+	font-family:"Arial";
+	text-transform:uppercase;
+}
+
+.p1:first-letter
+{
+	font-size:70px;
+	line-height:20px;
+	font-weight:bold;
+	font-style:italic;
+	font-family: "Calibri","Arial","Monospace";
+	float:left;
+}
+
+#logosobre img
+{
+	width:300px;
+	height:300px;
+	float:right;
+	margin: -30% 0 20px 20px;
+}
+
+#texto
+{
+	padding: 0;
+	margin: 20% 0 0 0;
+}

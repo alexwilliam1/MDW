@@ -1,0 +1,421 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background:url("../Imagens/IMG_background.jpg");
+	
+	/*background: -webkit-gradient(radial,20% 20%,30,20% 50%,400, from(green), to(black)) repeat-x;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header
+{
+	position: relative;
+}
+
+#topo img
+{
+	height: 200px;
+	width: 100%;
+	margin: 0 0 0 0%;
+}
+
+#corpo
+{
+	background: url("../Imagens/IMG_background.jpg") black center;
+	width: 78%;
+	border:3px solid #121212;
+	margin: 0 auto;
+}
+
+p
+{
+	color: white;
+}
+
+#menu ul
+{
+	list-style:none;
+	margin:0;
+	padding:1% 0 1% 0;
+	width:100%;
+	background: -webkit-linear-gradient(left,black,#003300,black);
+}
+
+#menu ul li
+{
+	display: inline-block;
+	position: relative;
+	margin: 0 20px;
+	
+}
+
+#menu ul li ul
+{
+	position: absolute;
+	top:20px;
+	left:0;
+	background-color: #000;
+	display:none;
+	width: 200px;
+	z-index: 1;
+}
+
+/*
+#menu ul li ul li a:hover
+{
+	border-top: none;
+	border-bottom: none;
+}
+
+#menu ul li ul li:first-child i
+{
+	width: 20px;
+	height: 20px;
+	background: url("../Imagens/nucleares.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+*/
+
+#menu ul li:hover ul
+{
+	display:block;
+}
+
+#menu ul li a{
+	color:#00B22D;
+	font-weight: bold;
+	font-family: "A GALEGA","Arial","sans-serif";
+	text-decoration: none;
+}
+
+#menu ul li a:hover
+{
+	/*border-top: 2px solid #00B22d;
+	border-bottom: 2px solid #00B22d;
+	padding: 0 0 5px 0;*/
+	color: #33ff00;
+}
+/*
+.menu2, #nav
+{
+	top:0%;
+	right:0%;
+	width:100%;
+	padding:0 20% 0 0;
+	position: fixed;
+	z-index:1;
+}
+
+.menu2 ul
+{
+	list-style:none;
+	margin:0;
+	padding:1% 0 1% 0;
+	width:100%;
+	background-color: white;
+	/* background: -webkit-linear-gradient(left,black,#003300,black); 
+}
+
+.menu2 ul li
+{
+	display: inline-block;
+	position: relative;
+	margin: 0 20px;
+	
+}
+
+.menu2 ul li ul
+{
+	position: absolute;
+	top:20px;
+	left:0;
+	background-color: #000;
+	display:none;
+	width: 200px;
+	z-index: 1;
+}
+
+.menu2 ul li:hover ul
+{
+	display:block;
+}
+
+.menu2 ul li a{
+	color:#00B22D;
+	font-weight: bold;
+	font-family: "A GALEGA";
+	text-decoration: none;
+}
+
+.menu2 ul li a:hover
+{
+	/*border-top: 2px solid #00B22d;
+	border-bottom: 2px solid #00B22d;
+	padding: 0 0 5px 0;
+	color: #33ff00;
+}
+*/
+
+.busca input[type=image]
+{
+	margin: -35px 10px;
+	width: 30px;
+	float: right;
+}
+
+.busca input[type=busca]
+{
+	float: right;
+	width: 100px;
+	margin: -32px 60px;
+	border-radius: 5px;
+	padding:0;
+}
+
+
+.destaques
+{
+	margin-top:10px;
+	position: relative;
+}
+
+.destaques img
+{
+	height: 500px;
+	width: 90%;
+	padding-left: 50px;
+}
+
+
+.linha
+{
+	border-bottom: 4px solid #00B22d;
+	width: 93%;
+	padding:0;
+	margin: 2% 0 0 3%;
+}
+
+#cat img
+{
+	width: 180px;
+}
+
+#cat li
+{
+	position: relative;
+	display: inline-block;
+	padding:0;
+	margin:3% 0% 0% 2%;
+	vertical-align: middle;
+}
+
+#cat
+{
+	margin: 0 0 0 10.5%;
+}
+
+.linha2
+{
+	border-bottom: 4px solid #00B22d;
+	width: 93%;
+	padding:0;
+	margin: 2% 0 0 3%;
+}
+
+footer
+{
+	background:#121212;
+	width: 100%;
+	position: absolute;
+	left:0;
+	padding:0;
+	margin:0;
+}
+
+.logorp
+{
+	float:right;
+	margin:2% 45% 0 0%;
+	width: 12%;
+	
+	padding:0;
+}
+
+.social img
+{
+	
+	width: 100%;
+	height: 100%;
+	max-width:25px;
+	max-height:25px;
+	margin:0;
+	padding:0; 
+}
+
+
+footer ul li
+{
+	display: inline;
+}
+
+.social
+{
+	float:left;
+	padding:10% 0 0 0;
+	margin:0 0 1% 15%;
+}
+
+.social p
+{
+	font-family:"Arial";
+	color: #9a9a9a;
+}
+
+.social a:hover
+{
+	background-color:#339933;
+	border-top:13px solid #339933;
+	/* border: 2px solid #00B22d; */
+	/* border-right: 5px solid #00B22d; */
+}
+
+.mail
+{
+	float:right;
+	padding:10% 0 0 0;
+	margin:0 -40% 1% 0%;
+}
+
+.mail input
+{
+	border: 2px solid #999999;
+	border-radius:5px;
+}
+
+.mail p
+{
+	font-family:"Arial";
+	color:#9a9a9a;
+}
+
+.mail #q
+{
+	color:#666666;
+	font-weight:bold;
+}
+
+.marca p
+{
+	float:left;
+	font-size:12px;
+	font-family:"Arial";
+	color:#9a9a9a;
+	margin:0% 15% 0% 15%;
+	padding:0;
+}
+
+footer
+{
+	background:#121212;
+	width: 100%;
+	position: absolute;
+	left:0;
+	padding:0;
+	margin:0;
+}
+
+.logorp
+{
+	float:right;
+	margin:2% 45% 0 0%;
+	width: 12%;
+	
+	padding:0;
+}
+
+.social img
+{
+	
+	width: 100%;
+	height: 100%;
+	max-width:25px;
+	max-height:25px;
+	margin:0;
+	padding:0; 
+}
+
+
+footer ul li
+{
+	display: inline;
+}
+
+.social
+{
+	float:left;
+	padding:10% 0 0 0;
+	margin:0 0 1% 15%;
+}
+
+.social p
+{
+	font-family:"Arial";
+	color: #9a9a9a;
+}
+
+.social a:hover
+{
+	background-color:#339933;
+	border-top:13px solid #339933;
+	/* border: 2px solid #00B22d; */
+	/* border-right: 5px solid #00B22d; */
+}
+
+.mail
+{
+	float:right;
+	padding:10% 0 0 0;
+	margin:0 -40% 1% 0%;
+}
+
+.mail button 
+{
+	border-radius: 4.5px;
+	font-weight: bold;	
+}
+
+.mail input
+{
+	border: 2px solid #999999;
+	border-radius:5px;
+}
+
+.mail p
+{
+	font-family:"Arial";
+	color:#9a9a9a;
+}
+
+.mail #q
+{
+	color:#666666;
+	font-weight:bold;
+}
+
+
+.marca p
+{
+	float:left;
+	font-size:12px;
+	font-family:"Arial";
+	color:#9a9a9a;
+	margin:0% 15% 0% 15%;
+	padding:0;
+}
+
